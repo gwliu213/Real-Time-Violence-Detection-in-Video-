@@ -37,3 +37,19 @@ ISSN={null},
 month={March},}
 
 ```
+##Gaowen notes
+
+```
+sudo apt install python3.7-venv
+python3.7 -m venv env37
+source env37/bin/activate
+
+jupyter nbconvert localfile-testing.ipynb --to python
+pip install tensorflow==1.15
+source env37/bin/activate
+pip install tensorflow==1.15
+pip install opencv-python
+pip install numpy==1.19.5
+pip install 'h5py==2.10.0' --force-reinstall
+pip install numpy==1.19.5
+```
